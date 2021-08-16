@@ -143,7 +143,7 @@
 }
 
 .small-example img {
-    width: 80%;
+  width: 90%;
 }
 
 .portfolio h1 {
@@ -194,13 +194,11 @@
     width: 100%;
     margin: 20px 0px 20px 0px;
   }
-
-  }
   .small-example {
     width: 100%;
   }
   .small-example img {
-        width: 100%;
+    width: 100%;
   }
   .header nav ul {
     margin-right: 0px;
