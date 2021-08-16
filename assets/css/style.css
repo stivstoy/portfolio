@@ -71,6 +71,7 @@
   padding: 0px 10px;
   font-family: 'Atkinson Hyperlegible', sans-serif;
   border-radius: 5px;
+  text-align: center;
 }
 
 .about {
@@ -126,12 +127,12 @@
 }
 
 .small-example {
-
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-between;
-justify-content: center;
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 .small-example h2 {
@@ -141,7 +142,7 @@ justify-content: center;
 }
 
 .small-example img {
-    width: 50%;
+    width: 80%;
 }
 
 .portfolio h1 {
@@ -181,3 +182,13 @@ justify-content: center;
   font-size: large;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .small-example {
+      width: 100%;
+    }
+    .small-example img {
+        width: 100%;
+    }  
+}
+
