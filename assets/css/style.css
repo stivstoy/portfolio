@@ -90,11 +90,6 @@
 }
 
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
-  flex-direction: row;
   border-bottom: 2px solid black;
 }
 
@@ -115,10 +110,38 @@
 .large-example img {
   width: 50%;
 }
+
 .large-example h2 {
   text-align: center;
   font-size: 46px;
   width: 100%;
+}
+
+.small-contain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.small-example {
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+justify-content: center;
+}
+
+.small-example h2 {
+  width: 100%;
+  font-size: 36px;
+  text-align: center;
+}
+
+.small-example img {
+    width: 50%;
 }
 
 .portfolio h1 {
