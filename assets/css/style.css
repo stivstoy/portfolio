@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  /* header styles */
 .header {
     background-color: #3f3e3e;
     display: flex;
@@ -53,7 +54,8 @@
 .header nav ul li a:hover {
     color: #9aa1a5;
   }
-
+ 
+  /* hero styles */
 .hero {
     background-image: url('../images/hero.jpg');
     background-size: cover;
@@ -75,6 +77,7 @@
   text-align: center;
 }
 
+  /* about styles */
 .about {
   text-align: center;
   border-bottom: 2px solid rgb(12, 0, 0);
@@ -91,6 +94,7 @@
   padding: 30px 30px 45px 30px;
 }
 
+  /*portfolio styles */
 .portfolio {
   border-bottom: 2px solid black;
 }
@@ -98,6 +102,12 @@
 .portfolio-head {
   width: 100%;
   display: flex;
+}
+.portfolio h1 {
+  width: 100%;
+  font-size: 64px;
+  text-align: center;
+  padding: 30px 0 30px 0;
 }
 
 .large-example {
@@ -107,11 +117,27 @@
   align-content: center;
   flex-direction: row;
   justify-content: center;
+  margin-top: 36px;
 }
 
-.large-example img {
+.large-example h2 {
+  padding: 20px 0px 40px 0px;
+}
+
+.large-example a {
+  display: inline-block; 
   width: 80%;
 }
+
+.large-example img  {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.large-example a:hover img  {
+  transform: scale(1.1);
+}
+
 
 .large-example h2 {
   text-align: center;
@@ -128,11 +154,10 @@
 }
 
 .small-example {
-  width: 33%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  width: 33%;
   justify-content: center;
 }
 
@@ -140,20 +165,26 @@
   width: 100%;
   font-size: 36px;
   text-align: center;
+  padding: 20px 0 20px 0;
 }
 
-.small-example img {
+.image-contain {
   width: 90%;
 }
 
-.portfolio h1 {
+.small-example img {
   width: 100%;
-  font-size: 64px;
-  text-align: center;
+  border: 1px solid black;
 }
 
+.small-example a:hover img  {
+  transform: scale(1.1);
+}
+
+  /*contact styles */
 .contact {
   border-bottom: 2px solid rgb(12, 0, 0);
+  text-align: center;
 }
 
 .contact h1 {
@@ -175,6 +206,7 @@
   list-style-type: none;
   text-align: center;
 }
+
 .footer ul li a {
   display:flex;
   color: white;
@@ -184,22 +216,30 @@
   text-align: center;
 }
 
+  /* media styles */
 @media screen and (max-width: 600px) {
 
   .large-example img {
     width: 100%;
   }
 
+  .large-example h2 {
+    font-size: 36px;
+  }
+
   .header nav {
     width: 100%;
     margin: 20px 0px 20px 0px;
   }
+
   .small-example {
     width: 100%;
   }
+
   .small-example img {
     width: 100%;
   }
+
   .header nav ul {
     margin-right: 0px;
   }
