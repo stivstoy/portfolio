@@ -35,12 +35,13 @@
   
  .header nav {
     display: flex;
+    justify-content: center;
+
   }
   
  .header nav ul {
     display: flex;
     list-style: none;
-    margin-left: auto;
     margin-right: 30px;
   }
   
@@ -109,7 +110,7 @@
 }
 
 .large-example img {
-  width: 50%;
+  width: 80%;
 }
 
 .large-example h2 {
@@ -184,11 +185,24 @@
 }
 
 @media screen and (max-width: 600px) {
-    .small-example {
-      width: 100%;
-    }
-    .small-example img {
+
+  .large-example img {
+    width: 100%;
+  }
+
+  .header nav {
+    width: 100%;
+  }
+
+  }
+  .small-example {
+    width: 100%;
+  }
+  .small-example img {
         width: 100%;
-    }  
+  }
+  .header nav ul {
+    margin-right: 0px;
+  }
 }
 
