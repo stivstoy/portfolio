@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.header {
+    background-color: #3f3e3e;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.avatar-name {
+    display: flex;
+    align-items: center;
+}
+ .header img { 
+      border: 0px;
+}
+  
+ .header h1 {
+    font-size: 36px;
+    color: #f6f7fa;
+    margin: 0px;
+    padding: 0px 0px 0px 15px;
+  }
+  
+ .header a {
+    text-decoration: underline;
+    color: #cfd3dd;
+  }
+  
+ .header nav {
+    display: flex;
+  }
+  
+ .header nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+ .header nav ul li a {
+    padding: 0px 15px;
+    font-size: 24px;
+  }
+  
+ .header nav ul li a:hover {
+    color: #9aa1a5;
+  }
+
+  .hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 400px;
+    justify-content: center;
+  }
+
+.hero h2 {
+  background-color: #f7f4f4;
+  font-size: 86px;
+  color: rgb(12, 12, 12);
+  text-shadow: 2px 2px #f5f0f0;
+  padding: 0px 10px;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  border-radius: 5px;
+}
+
+.about {
+  text-align: center;
+  border-bottom: 2px solid rgb(12, 0, 0);
+  background-color: white
+}
+
+.about h1 {
+  font-size: 64px;
+  padding-top: 36px;
+}
+
+.about p {
+  font-size:34px;
+  padding: 30px 30px 45px 30px;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+}
+
+.portfolio-head {
+  width: 100%;
+  display: flex;
+}
+
+.large-example {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.large-example img {
+  width: 50%;
+}
+.large-example h2 {
+  text-align: center;
+  font-size: 46px;
+  width: 100%;
+}
+
+.portfolio h1 {
+  width: 100%;
+  font-size: 64px;
+  text-align: center;
+}
+
+.contact {
+  border-bottom: 2px solid rgb(12, 0, 0);
+
+}
+
+.contact h1 {
+  width: 100%;
+  font-size: 64px;
+  text-align: center;
+  }
+
+.footer {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  }
+  
+.footer ul {  
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+.footer ul li a {
+  display:flex;
+  color: white;
+  margin: 30px 10px 30px 10px;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+}
