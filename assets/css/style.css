@@ -44,16 +44,16 @@
     margin-right: 30px;
   }
   
- .header nav ul li a {
+.header nav ul li a {
     padding: 0px 15px;
     font-size: 24px;
   }
   
- .header nav ul li a:hover {
+.header nav ul li a:hover {
     color: #9aa1a5;
   }
 
-  .hero {
+.hero {
     background-image: url('../images/hero.jpg');
     background-size: cover;
     display: flex;
@@ -129,7 +129,6 @@
 
 .contact {
   border-bottom: 2px solid rgb(12, 0, 0);
-
 }
 
 .contact h1 {
