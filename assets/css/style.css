@@ -3,11 +3,15 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+  /* variables */
+  :root {
+    --flex: flex;
+  }
+
   /* header styles */
 .header {
     background-color: #3f3e3e;
-    display: flex;
+    display: var(--flex); 
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
@@ -15,7 +19,7 @@
   }
 
 .avatar-name {
-    display: flex;
+    display: var(--flex);
     align-items: center;
 }
  .header img { 
@@ -35,13 +39,13 @@
   }
   
  .header nav {
-    display: flex;
+    display: var(--flex);
     justify-content: center;
 
   }
   
  .header nav ul {
-    display: flex;
+    display: var(--flex);
     list-style: none;
     margin-right: 30px;
   }
@@ -59,7 +63,7 @@
 .hero {
     background-image: url('../images/hero.jpg');
     background-size: cover;
-    display: flex;
+    display: var(--flex);
     flex-wrap: wrap;
     align-content: center;
     height: 400px;
@@ -101,7 +105,7 @@
 
 .portfolio-head {
   width: 100%;
-  display: flex;
+  display: var(--flex);
 }
 .portfolio h1 {
   width: 100%;
@@ -114,7 +118,7 @@
 
 .large-example {
   width: 100%;
-  display: flex;
+  display: var(--flex);
   flex-wrap: wrap;
   align-content: center;
   flex-direction: row;
@@ -149,7 +153,7 @@
   /* small examples */
 
 .small-contain {
-  display: flex;
+  display: var(--flex);
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
@@ -157,7 +161,7 @@
 }
 
 .small-example {
-  display: flex;
+  display: var(--flex);
   flex-wrap: wrap;
   flex-direction: row;
   width: 33%;
@@ -205,7 +209,7 @@
   
 .footer {
   background-color: gray;
-  display: flex;
+  display: var(--flex);
   flex-direction: row;
   align-content: center;
   justify-content: center;
@@ -219,7 +223,7 @@
 }
 
 .footer ul li a {
-  display:flex;
+  display: var(--flex);
   color: white;
   margin: 30px 10px 30px 10px;
   text-decoration: none;
