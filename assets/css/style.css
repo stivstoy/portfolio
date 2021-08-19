@@ -217,7 +217,7 @@
   }
   
 .footer ul {  
-  display: flex;
+  display: var(--flex);
   list-style-type: none;
   text-align: center;
 }
